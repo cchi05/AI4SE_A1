@@ -8,20 +8,32 @@ To run the program, open a terminal of your choice and navigate to the directory
 
 python ngram.py test.csv
 
-Where test.csv is replaced with the name of your test data file, including the file extension.
-
-
+Where test.csv is replaced with the name of your test data file, including the file extension.  
+  
+  
+  
 #Fields  
 
 code: a method used for the model
+
 code_tokens: the above method, parsed into an array of tokens
+
 docstring: any documentation associated with the above method
+
 docstring_tokens: the above docstring, parsed into an array of tokens
+
 func_name: name of the method
+
 language: the language the method is written in
+
 original_string: the original method before any parsing processes
+
 partition: a token or string used to indicate a break between methods
+
 path: the path to the original file the method was pulled from
+
 repo: the repository the method was pulled from
+
 sha:
+
 url: the URL to the original file within its original repository
