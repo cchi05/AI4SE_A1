@@ -1,4 +1,4 @@
-#Instructions
+#Instructions  
 
 For this program, both training and testing data should be tokenized in a CSV file (spreadsheet), as described here:
 https://docs.cortext.net/data-formats/#:~:text=by%20CorText%20Manager.-,Csv,December%2023rd%202001%20for%20instance)
@@ -11,7 +11,7 @@ python ngram.py test.csv
 Where test.csv is replaced with the name of your test data file, including the file extension.
 
 
-#Fields
+#Fields  
 
 code: a method used for the model
 code_tokens: the above method, parsed into an array of tokens
